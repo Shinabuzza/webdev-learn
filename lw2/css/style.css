@@ -1,0 +1,383 @@
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: block;
+  background: #fff;
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  width: auto;
+}
+
+.top-blue {
+  background-image: linear-gradient(#4e69a2, #3b5998 50%);
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 83px;
+}
+
+img {
+  margin-top: 18px;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  width: 170px;
+  height: 34px;
+}
+.logo:hover{
+  cursor: pointer;
+}
+
+.search-form {
+  border-bottom-left-radius: 4px;
+  border-bottom-color: #282828;
+  border-radius: 4px;
+  margin: auto;
+  padding: auto;
+  height: 190px;
+  width: 897px;
+}
+
+.body-form {
+  background-color: #e9ebee;
+  padding-top: 80px;
+  height: 230px;
+  padding-bottom: 80px;
+}
+
+.Search-uracc {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ccc;
+  background-color: #fff;
+  border-radius: 2px;
+  margin-top: 20px;
+  margin-left: 161px;
+  margin-right: 170px;
+  align-self: center;
+  width: 555px;
+  height: 188px;
+}
+
+.page-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 139px;
+}
+
+.ui-list {
+  padding: 8px;
+  width: 980px;
+  height: 20px;
+}
+
+li {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+
+.login {
+  display: table;
+  float: right;
+  width: 386px;
+  height: 65px;
+  position: relative;
+}
+
+.menu-bar {
+  margin-right: 0px;
+  background-size: auto;
+  margin-left: 184.5px;
+  margin-right: 184.5px;
+  padding-top: 13px;
+  width: auto;
+  height: 65px;
+  display: block;
+  position: relative;
+}
+
+.email {
+  padding-left: 14px;
+  padding-bottom: 4px;
+  text-align: left;
+  vertical-align: top;
+}
+
+label {
+  color: white;
+  padding-left: 10px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  margin-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 12px;
+}
+
+.input {
+  padding-top: 4px;
+  padding-left: 6px;
+}
+
+input#email {
+  border-color: rgb(29, 42, 91);
+  border-width: 1px;
+  padding: 3px;
+  padding-bottom: 4px;
+  margin-right: 14px;
+  width: 140px;
+  height: 12px;
+}
+
+input#password {
+  border-color: rgb(29, 42, 91);
+  border-width: 1px;
+  padding: 3px;
+  padding-bottom: 4px;
+  width: 140px;
+  height: 12px;
+}
+
+button {
+  float: right;
+  padding-left: 3px;
+  padding-bottom: 0px;
+  width: 40px;
+  height: 23px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #29487d;
+  border-radius: 2px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background-color: #4267b2;
+}
+
+.forgot-acc {
+  float:right;
+  padding-top: 7px;
+  padding-right: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #9cb4d8;
+  cursor: pointer;
+}
+
+.forgot-acc:hover {
+  text-decoration: underline;
+}
+
+.ui-header {
+  width: 515px;
+  height: 27px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+  border-bottom-style: solid;
+}
+
+.ui-middle {
+  padding-top: 10px;
+  margin-right: 90px;
+  padding-left: 85px;
+  padding-right: 85px;
+  margin-bottom: 15px;
+  width: 450px;
+  height: 72px;
+}
+
+.ui-bottom {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-bottom: 3px;
+  border-top-width: 1px;
+  border-top-color: #ccc;
+  border-top-style: solid;
+  width: 535px;
+  height: 32px;
+}
+
+
+.search-acc {
+  color: #162643;
+  font-size: 16px;
+  outline: none;
+  padding-bottom: 2px;
+  vertical-align: bottom;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.enter {
+  font-weight: 700px;
+}
+
+.input-email {
+  padding-right: 90px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin:3px;
+}
+
+.put-email {
+  margin-top: 4px;
+  width: 263px;
+  height: 23px;
+}
+
+input#identify_email {
+  border: 1px solid #bdc7d8;
+  margin-top: 4px;
+  width: 263px;
+  height: 17px;
+}
+
+.btns {
+  padding-top: 5px;
+  width: 112px;
+  height: 24px;
+  float: right;
+}
+
+.btn-search {
+  float: left;
+  padding:2px 6px 2px 6px;
+  width: 35px;
+  height: 15px;
+  background-color: #4267b2;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #29487d;
+  border-radius: 2px;
+  font-weight: 700px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+.btn-search:active{
+  background-color: #29487d;
+}
+
+.btn-cancel {
+  width: 55px;
+  padding-top: 2px;
+  height: 17px;
+  float: right;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #ced0d4;
+  cursor: pointer;
+  border-radius: 2px;
+  font-weight: 700px;
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f6f7f9;
+}
+.btn-cancel:active{
+  background-color: #ced0d4;
+}
+.cancel {
+  color: black;
+  font-size: 12px;
+  text-align: center;
+}
+
+.fb-content {
+  margin: 0;
+  outline: none;
+  padding: 0;
+  width: auto;
+  min-height: 612px;
+}
+
+#footer .container {
+  padding-bottom: 30px;
+  width: 1000px;
+}
+.lang a {
+  color:#365899;
+  text-decoration: none;
+  font-size: 14px;
+  padding-right: 10px;
+}
+.lang a:hover{
+  text-decoration: underline;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.block {
+  margin: 10px;
+  border: 1px solid #dddfe2;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: block;
+  font-size: 13px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color:#365899;
+}
+.menu li a:hover{
+  text-decoration: underline;
+}
+
+.items {
+  width: 1200px;
+}
+
+.menu {
+  margin-right: 10px;
+  float: left;
+  
+}
+
+.logo-face h6 {
+  padding-top: 35px;
+  color: #737373;
+}
+
+.title a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 25px;
+  float: left;
+}

@@ -30,6 +30,9 @@ img {
   width: 170px;
   height: 34px;
 }
+.logo:hover{
+  cursor: pointer;
+}
 
 .search-form {
   border-bottom-left-radius: 4px;
@@ -167,7 +170,7 @@ button {
   background-color: #4267b2;
 }
 
-.a1 {
+.forgot-acc {
   float:right;
   padding-top: 7px;
   padding-right: 80px;
@@ -177,7 +180,7 @@ button {
   cursor: pointer;
 }
 
-.a1:hover {
+.forgot-acc:hover {
   text-decoration: underline;
 }
 
@@ -218,7 +221,7 @@ button {
 }
 
 
-.a3 {
+.search-acc {
   color: #162643;
   font-size: 16px;
   outline: none;
@@ -228,14 +231,17 @@ button {
   font-weight: bold;
 }
 
-.a2 {
+.enter {
   font-weight: 700px;
 }
 
-.a4 {
+.input-email {
   padding-right: 90px;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
+}
+p{
+  margin:3px;
 }
 
 .put-email {
@@ -276,6 +282,9 @@ input#identify_email {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
+.btn-search:active{
+  background-color: #29487d;
+}
 
 .btn-cancel {
   width: 55px;
@@ -293,8 +302,10 @@ input#identify_email {
   font-family: Arial, Helvetica, sans-serif;
   color: #f6f7f9;
 }
-
-.a5 {
+.btn-cancel:active{
+  background-color: #ced0d4;
+}
+.cancel {
   color: black;
   font-size: 12px;
   text-align: center;

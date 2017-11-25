@@ -51,7 +51,7 @@ img {
   padding-bottom: 80px;
 }
 
-.Search-uracc {
+.search-uracc {
   border-style: solid;
   border-width: 1px;
   border-color: #ccc;
@@ -169,6 +169,9 @@ button {
   color: #fff;
   background-color: #4267b2;
 }
+button:hover{
+  background-color: #3159aa;
+}
 
 .forgot-acc {
   float:right;
@@ -282,8 +285,11 @@ input#identify_email {
   font-family: Arial, Helvetica, sans-serif;
   color: #fff;
 }
-.btn-search:active{
-  background-color: #29487d;
+.btn-search:active:hover{
+  background-color: #1f287e;
+}
+.btn-search:hover{
+  background-color: #1c4175;
 }
 
 .btn-cancel {
@@ -302,10 +308,13 @@ input#identify_email {
   font-family: Arial, Helvetica, sans-serif;
   color: #f6f7f9;
 }
-.btn-cancel:active{
-  background-color: #ced0d4;
+.btn-cancel:active:hover{
+  background-color: #9fa2a7;
 }
-.cancel {
+.btn-cancel:hover{
+  background-color: #b6b9be; 
+}
+.cancel { 
   color: black;
   font-size: 12px;
   text-align: center;

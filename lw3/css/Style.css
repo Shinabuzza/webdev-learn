@@ -1,0 +1,36 @@
+body{
+  
+  margin:0px;
+  background-color: #ffffff;
+}
+.mainform{
+margin-top:50px;
+margin-left:40%;
+width:250px;
+height:250px;
+border: 1px solid #80808c;
+border-radius: 4px;
+background-color: #E6E6FA;
+}
+.reg{
+  height: 40px;
+  text-align: center;
+  margin:0px;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 21px;
+  background-color:#b8b8c8; 
+  border-bottom: 1px solid #80808c;
+}
+p{
+  margin-left:35px;
+}
+.check{
+  margin-left:20px;
+}
+.reg_button{
+  margin-top:10px;
+  margin-left:50px;
+}
+input{
+  border-radius:2px;
+}

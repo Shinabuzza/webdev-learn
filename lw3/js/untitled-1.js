@@ -10,12 +10,12 @@ function registration(event) {
     alert("Ошибка ввода.");
     return;
   } else {
-    if ((userEmail.value.length < 5) || (!emailCheck)) {
+    if ((!userEmail) || (userEmail.value.length < 5) || (!emailCheck)) {
       alert("Ошибка ввода Email.");
       return;
     }
 
-    if ((userPass.value.length < 6) || (userPass == "") || (userPassCheck == "")) {
+    if ((!userPass)||(userPass.value.length < 6) || (userPass == "") || (userPassCheck == "")) {
       alert("Ошибка ввода пароля");
       return;
     }
